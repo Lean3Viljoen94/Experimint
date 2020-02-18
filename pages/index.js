@@ -12,7 +12,7 @@ const HeaderTwo = styled.h2`
     margin: 60px 0;
 `
 const DivStyle = styled.div`
-    background-color: blue;
+    background-color: lightblue;
     padding: 10px;
 `
 
@@ -29,7 +29,7 @@ const DivStyle = styled.div`
                 <p>Yes the spelling error is intentional</p>
             <DivStyle>
                 <HeaderTwo>
-                    Haha, only saw this now.. I assumed it is!
+                    Haha, only saw this now.. I assumed it is intentional haha..
                 </HeaderTwo>
             </DivStyle>
         </div>
