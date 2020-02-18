@@ -29,7 +29,7 @@ const DivStyle = styled.div`
                 <p>Yes the spelling error is intentional</p>
             <DivStyle>
                 <HeaderTwo>
-                    Haha, only saw this now.. I assumed it is intentional haha..
+                    Haha, only saw this now.. I assumed it is intentional..
                 </HeaderTwo>
             </DivStyle>
         </div>
