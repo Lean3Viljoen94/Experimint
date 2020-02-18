@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -104,42 +104,74 @@ module.exports =
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _jsxFileName = "C:\\Users\\Talitha\\Documents\\Collabs\\Experimint\\pages\\index.js";
-
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "styled-components");
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "/Users/leandrinieuwoudt/Desktop/Experimint/pages/index.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+const HeaderOne = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.h1`
+  color: pink;
+  font-size: 30px;
+  margin: 60px 0;
+`;
+const HeaderTwo = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.h2`
+    color: white;
+    font-size: 15px;
+    margin: 60px 0;
+`;
+const DivStyle = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div`
+    background-color: blue;
+    padding: 10px;
+`; // I'm adding some styled-component styling here because 
+// this is what we use at work and I need some practise. 
+// Basically, you style a component and then rename is so that 
+// each time you use it, the styling is automatically applied. 
 
 const Welcome = () => __jsx("div", {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 4
+    lineNumber: 27
   },
   __self: undefined
-}, __jsx("h1", {
+}, __jsx(HeaderOne, {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 5
+    lineNumber: 28
   },
   __self: undefined
 }, "Welcome to the Experimint!"), __jsx("p", {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 6
+    lineNumber: 29
   },
   __self: undefined
-}, "Yes the spelling error is intentional"));
+}, "Yes the spelling error is intentional"), __jsx(DivStyle, {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 30
+  },
+  __self: undefined
+}, __jsx(HeaderTwo, {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 31
+  },
+  __self: undefined
+}, "Haha, only saw this now.. I assumed it is!")));
 
 /* harmony default export */ __webpack_exports__["default"] = (Welcome);
 
 /***/ }),
 
-/***/ 3:
+/***/ 4:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\Talitha\Documents\Collabs\Experimint\pages\index.js */"./pages/index.js");
+module.exports = __webpack_require__(/*! /Users/leandrinieuwoudt/Desktop/Experimint/pages/index.js */"./pages/index.js");
 
 
 /***/ }),
@@ -152,6 +184,17 @@ module.exports = __webpack_require__(/*! C:\Users\Talitha\Documents\Collabs\Expe
 /***/ (function(module, exports) {
 
 module.exports = require("react");
+
+/***/ }),
+
+/***/ "styled-components":
+/*!************************************!*\
+  !*** external "styled-components" ***!
+  \************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("styled-components");
 
 /***/ })
 
